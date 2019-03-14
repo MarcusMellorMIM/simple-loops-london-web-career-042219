@@ -37,7 +37,7 @@ def while_iterator(number_of_times)
 
 counter=0 
 
-  while counter < counter<number_of_times
+  while counter < number_of_times
     counter = counter+1
     puts phrase
   end
@@ -51,7 +51,7 @@ def until_iterator(number_of_times)
 
 counter=0 
 
-  until counter >= counter<number_of_times
+  until counter >= number_of_times
     counter = counter+1
     puts phrase
   end
