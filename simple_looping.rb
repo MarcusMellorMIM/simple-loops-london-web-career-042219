@@ -12,7 +12,7 @@ def loop_iterator(number_of_times)
   
   counter=0
   loop do
-    counter+=counter
+    counter=counter+1
     if counter > 9
       break
     end
